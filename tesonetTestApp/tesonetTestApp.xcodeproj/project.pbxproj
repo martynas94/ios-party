@@ -1,0 +1,853 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C213F455FDB3D114C36E6EAA /* Pods_tesonetTestApp_tesonetTestAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3B872A7079B261F43EFE50C /* Pods_tesonetTestApp_tesonetTestAppTests.framework */; };
+		CA1D9BC8213AEC300051EF1B /* LoadingCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D9BC7213AEC300051EF1B /* LoadingCircleView.swift */; };
+		CA1D9BCA213B2FD00051EF1B /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D9BC9213B2FD00051EF1B /* LoadingViewController.swift */; };
+		CA1D9BCD213C20F40051EF1B /* ServersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D9BCC213C20F40051EF1B /* ServersService.swift */; };
+		CA1D9BCF213C26770051EF1B /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D9BCE213C26770051EF1B /* Server.swift */; };
+		CA1D9BD1213C28D90051EF1B /* ServersServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D9BD0213C28D90051EF1B /* ServersServiceProtocol.swift */; };
+		CA1D9BD3213C2B9F0051EF1B /* ServersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D9BD2213C2B9F0051EF1B /* ServersViewModel.swift */; };
+		CA1D9BD5213C311E0051EF1B /* ServersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D9BD4213C311E0051EF1B /* ServersModel.swift */; };
+		CA1D9BD7213C31380051EF1B /* ServersModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D9BD6213C31380051EF1B /* ServersModelProtocol.swift */; };
+		CA1D9BD9213C36550051EF1B /* ServersDatabaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D9BD8213C36550051EF1B /* ServersDatabaseProtocol.swift */; };
+		CA1D9BDB213C37D40051EF1B /* ServersDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D9BDA213C37D40051EF1B /* ServersDatabase.swift */; };
+		CA1D9BDE213C54090051EF1B /* ServerObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D9BDD213C54090051EF1B /* ServerObject.swift */; };
+		CA1D9BE2213C605B0051EF1B /* ServerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D9BE1213C605B0051EF1B /* ServerTableViewCell.swift */; };
+		CA1D9BE4213C63450051EF1B /* ServerSortType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D9BE3213C63450051EF1B /* ServerSortType.swift */; };
+		CA1D9BE9213C85A10051EF1B /* MockServersDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D9BE8213C85A10051EF1B /* MockServersDatabase.swift */; };
+		CA1D9BEA213C85E20051EF1B /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D9BCE213C26770051EF1B /* Server.swift */; };
+		CA1D9BEB213C85E90051EF1B /* ServersDatabaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D9BD8213C36550051EF1B /* ServersDatabaseProtocol.swift */; };
+		CA1D9BED213C860F0051EF1B /* MockServersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D9BEC213C860F0051EF1B /* MockServersService.swift */; };
+		CA1D9BEE213C86240051EF1B /* ServersServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D9BD0213C28D90051EF1B /* ServersServiceProtocol.swift */; };
+		CA1D9BF0213C86760051EF1B /* MockServersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D9BEF213C86760051EF1B /* MockServersModel.swift */; };
+		CA1D9BF1213C86850051EF1B /* ServersModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D9BD6213C31380051EF1B /* ServersModelProtocol.swift */; };
+		CA1D9BF3213C87390051EF1B /* ServersModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D9BF2213C87390051EF1B /* ServersModelTests.swift */; };
+		CA1D9BF4213C87610051EF1B /* ServersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D9BD4213C311E0051EF1B /* ServersModel.swift */; };
+		CA1D9BF8213C89410051EF1B /* ServersViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D9BF7213C89410051EF1B /* ServersViewModelTests.swift */; };
+		CA1D9BF9213C894B0051EF1B /* ServersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D9BD2213C2B9F0051EF1B /* ServersViewModel.swift */; };
+		CA1D9BFA213C89610051EF1B /* ServerSortType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D9BE3213C63450051EF1B /* ServerSortType.swift */; };
+		CA1D9BFC213C93D40051EF1B /* LoginViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D9BFB213C93D40051EF1B /* LoginViewModelTests.swift */; };
+		CA1D9BFD213C93FA0051EF1B /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA58268121371C5A0036148C /* LoginViewModel.swift */; };
+		CA1D9BFE213C940B0051EF1B /* LoginServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA58268321371E0E0036148C /* LoginServiceProtocol.swift */; };
+		CA1D9BFF213C95170051EF1B /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5826712135D8A30036148C /* AppError.swift */; };
+		CA1D9C00213C95F70051EF1B /* KeychainAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA58267C21370AFB0036148C /* KeychainAccess.swift */; };
+		CA1D9C02213CF9230051EF1B /* MockLoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D9C01213CF9230051EF1B /* MockLoginService.swift */; };
+		CA58264F2135CC740036148C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA58264E2135CC740036148C /* AppDelegate.swift */; };
+		CA5826512135CC740036148C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5826502135CC740036148C /* LoginViewController.swift */; };
+		CA5826542135CC740036148C /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5826522135CC740036148C /* Login.storyboard */; };
+		CA5826562135CC760036148C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA5826552135CC760036148C /* Assets.xcassets */; };
+		CA5826592135CC760036148C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5826572135CC760036148C /* LaunchScreen.storyboard */; };
+		CA58266F2135D7E10036148C /* URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA58266E2135D7E10036148C /* URLSession.swift */; };
+		CA5826722135D8A30036148C /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5826712135D8A30036148C /* AppError.swift */; };
+		CA5826742135D9230036148C /* RequestMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5826732135D9230036148C /* RequestMethod.swift */; };
+		CA5826762135D9300036148C /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5826752135D9300036148C /* URLRequest.swift */; };
+		CA5826782135D9650036148C /* RemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5826772135D9650036148C /* RemoteService.swift */; };
+		CA58267B2135DC610036148C /* URLSessionConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA58267A2135DC610036148C /* URLSessionConfiguration.swift */; };
+		CA58267D21370AFB0036148C /* KeychainAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA58267C21370AFB0036148C /* KeychainAccess.swift */; };
+		CA58267F21370D250036148C /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA58267E21370D250036148C /* LoginService.swift */; };
+		CA58268221371C5A0036148C /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA58268121371C5A0036148C /* LoginViewModel.swift */; };
+		CA58268421371E0E0036148C /* LoginServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA58268321371E0E0036148C /* LoginServiceProtocol.swift */; };
+		CA582686213AA8990036148C /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA582685213AA8990036148C /* UIViewController.swift */; };
+		CA582688213AB3220036148C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA582687213AB3220036148C /* Main.storyboard */; };
+		CA58268A213AE4370036148C /* ServersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA582689213AE4360036148C /* ServersViewController.swift */; };
+		D0272FD8FE230D00A30674BD /* Pods_tesonetTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C593B8FF51BA5B47D289FEB /* Pods_tesonetTestApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA5826602135CC760036148C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA5826432135CC740036148C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA58264A2135CC740036148C;
+			remoteInfo = tesonetTestApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2789006C277CA6E485F84C33 /* Pods-tesonetTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tesonetTestApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-tesonetTestApp/Pods-tesonetTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		4A013351664237F1413C4EB6 /* Pods-tesonetTestApp-tesonetTestAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tesonetTestApp-tesonetTestAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tesonetTestApp-tesonetTestAppTests/Pods-tesonetTestApp-tesonetTestAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		4C593B8FF51BA5B47D289FEB /* Pods_tesonetTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tesonetTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1D9BC7213AEC300051EF1B /* LoadingCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCircleView.swift; sourceTree = "<group>"; };
+		CA1D9BC9213B2FD00051EF1B /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		CA1D9BCC213C20F40051EF1B /* ServersService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServersService.swift; sourceTree = "<group>"; };
+		CA1D9BCE213C26770051EF1B /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		CA1D9BD0213C28D90051EF1B /* ServersServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServersServiceProtocol.swift; sourceTree = "<group>"; };
+		CA1D9BD2213C2B9F0051EF1B /* ServersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServersViewModel.swift; sourceTree = "<group>"; };
+		CA1D9BD4213C311E0051EF1B /* ServersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServersModel.swift; sourceTree = "<group>"; };
+		CA1D9BD6213C31380051EF1B /* ServersModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServersModelProtocol.swift; sourceTree = "<group>"; };
+		CA1D9BD8213C36550051EF1B /* ServersDatabaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServersDatabaseProtocol.swift; sourceTree = "<group>"; };
+		CA1D9BDA213C37D40051EF1B /* ServersDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServersDatabase.swift; sourceTree = "<group>"; };
+		CA1D9BDD213C54090051EF1B /* ServerObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerObject.swift; sourceTree = "<group>"; };
+		CA1D9BE1213C605B0051EF1B /* ServerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerTableViewCell.swift; sourceTree = "<group>"; };
+		CA1D9BE3213C63450051EF1B /* ServerSortType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerSortType.swift; sourceTree = "<group>"; };
+		CA1D9BE8213C85A10051EF1B /* MockServersDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockServersDatabase.swift; sourceTree = "<group>"; };
+		CA1D9BEC213C860F0051EF1B /* MockServersService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockServersService.swift; sourceTree = "<group>"; };
+		CA1D9BEF213C86760051EF1B /* MockServersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockServersModel.swift; sourceTree = "<group>"; };
+		CA1D9BF2213C87390051EF1B /* ServersModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServersModelTests.swift; sourceTree = "<group>"; };
+		CA1D9BF5213C88E60051EF1B /* tesonetTestAppTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tesonetTestAppTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		CA1D9BF7213C89410051EF1B /* ServersViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServersViewModelTests.swift; sourceTree = "<group>"; };
+		CA1D9BFB213C93D40051EF1B /* LoginViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelTests.swift; sourceTree = "<group>"; };
+		CA1D9C01213CF9230051EF1B /* MockLoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLoginService.swift; sourceTree = "<group>"; };
+		CA58264B2135CC740036148C /* tesonetTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tesonetTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA58264E2135CC740036148C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA5826502135CC740036148C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CA5826532135CC740036148C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
+		CA5826552135CC760036148C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA5826582135CC760036148C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA58265A2135CC760036148C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA58265F2135CC760036148C /* tesonetTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tesonetTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA5826652135CC760036148C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA58266E2135D7E10036148C /* URLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSession.swift; sourceTree = "<group>"; };
+		CA5826712135D8A30036148C /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		CA5826732135D9230036148C /* RequestMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestMethod.swift; sourceTree = "<group>"; };
+		CA5826752135D9300036148C /* URLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequest.swift; sourceTree = "<group>"; };
+		CA5826772135D9650036148C /* RemoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteService.swift; sourceTree = "<group>"; };
+		CA58267A2135DC610036148C /* URLSessionConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionConfiguration.swift; sourceTree = "<group>"; };
+		CA58267C21370AFB0036148C /* KeychainAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainAccess.swift; sourceTree = "<group>"; };
+		CA58267E21370D250036148C /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		CA58268121371C5A0036148C /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		CA58268321371E0E0036148C /* LoginServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginServiceProtocol.swift; sourceTree = "<group>"; };
+		CA582685213AA8990036148C /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		CA582687213AB3220036148C /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CA582689213AE4360036148C /* ServersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServersViewController.swift; sourceTree = "<group>"; };
+		D1C42BC54C871C03E82841AB /* Pods-tesonetTestApp-tesonetTestAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tesonetTestApp-tesonetTestAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tesonetTestApp-tesonetTestAppTests/Pods-tesonetTestApp-tesonetTestAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3B872A7079B261F43EFE50C /* Pods_tesonetTestApp_tesonetTestAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tesonetTestApp_tesonetTestAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F79856550116813B5C075A /* Pods-tesonetTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tesonetTestApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tesonetTestApp/Pods-tesonetTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA5826482135CC740036148C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0272FD8FE230D00A30674BD /* Pods_tesonetTestApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA58265C2135CC760036148C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C213F455FDB3D114C36E6EAA /* Pods_tesonetTestApp_tesonetTestAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43C01AEB6805185C51458004 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4F79856550116813B5C075A /* Pods-tesonetTestApp.debug.xcconfig */,
+				2789006C277CA6E485F84C33 /* Pods-tesonetTestApp.release.xcconfig */,
+				D1C42BC54C871C03E82841AB /* Pods-tesonetTestApp-tesonetTestAppTests.debug.xcconfig */,
+				4A013351664237F1413C4EB6 /* Pods-tesonetTestApp-tesonetTestAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4E4474F96F3D6FD0CB25D785 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C593B8FF51BA5B47D289FEB /* Pods_tesonetTestApp.framework */,
+				E3B872A7079B261F43EFE50C /* Pods_tesonetTestApp_tesonetTestAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA1D9BCB213C20E50051EF1B /* Servers */ = {
+			isa = PBXGroup;
+			children = (
+				CA1D9BE0213C55BE0051EF1B /* Service */,
+				CA1D9BDF213C55B40051EF1B /* Model */,
+				CA1D9BDC213C53EE0051EF1B /* Database */,
+				CA582689213AE4360036148C /* ServersViewController.swift */,
+				CA1D9BCE213C26770051EF1B /* Server.swift */,
+				CA1D9BD2213C2B9F0051EF1B /* ServersViewModel.swift */,
+				CA1D9BE1213C605B0051EF1B /* ServerTableViewCell.swift */,
+				CA1D9BE3213C63450051EF1B /* ServerSortType.swift */,
+			);
+			path = Servers;
+			sourceTree = "<group>";
+		};
+		CA1D9BDC213C53EE0051EF1B /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				CA1D9BD8213C36550051EF1B /* ServersDatabaseProtocol.swift */,
+				CA1D9BDA213C37D40051EF1B /* ServersDatabase.swift */,
+				CA1D9BDD213C54090051EF1B /* ServerObject.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		CA1D9BDF213C55B40051EF1B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA1D9BD4213C311E0051EF1B /* ServersModel.swift */,
+				CA1D9BD6213C31380051EF1B /* ServersModelProtocol.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CA1D9BE0213C55BE0051EF1B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CA1D9BCC213C20F40051EF1B /* ServersService.swift */,
+				CA1D9BD0213C28D90051EF1B /* ServersServiceProtocol.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CA1D9BF6213C891A0051EF1B /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				CA1D9BE8213C85A10051EF1B /* MockServersDatabase.swift */,
+				CA1D9BEC213C860F0051EF1B /* MockServersService.swift */,
+				CA1D9BEF213C86760051EF1B /* MockServersModel.swift */,
+				CA1D9C01213CF9230051EF1B /* MockLoginService.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		CA5826422135CC740036148C = {
+			isa = PBXGroup;
+			children = (
+				CA58264D2135CC740036148C /* tesonetTestApp */,
+				CA5826622135CC760036148C /* tesonetTestAppTests */,
+				CA58264C2135CC740036148C /* Products */,
+				43C01AEB6805185C51458004 /* Pods */,
+				4E4474F96F3D6FD0CB25D785 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA58264C2135CC740036148C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA58264B2135CC740036148C /* tesonetTestApp.app */,
+				CA58265F2135CC760036148C /* tesonetTestAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA58264D2135CC740036148C /* tesonetTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				CA1D9BCB213C20E50051EF1B /* Servers */,
+				CA58268021371C2C0036148C /* Login */,
+				CA5826792135D9AD0036148C /* Supporting Files */,
+				CA58264E2135CC740036148C /* AppDelegate.swift */,
+				CA5826522135CC740036148C /* Login.storyboard */,
+				CA582687213AB3220036148C /* Main.storyboard */,
+				CA5826552135CC760036148C /* Assets.xcassets */,
+				CA5826572135CC760036148C /* LaunchScreen.storyboard */,
+				CA58265A2135CC760036148C /* Info.plist */,
+				CA5826702135D7E40036148C /* Extensions */,
+				CA5826732135D9230036148C /* RequestMethod.swift */,
+				CA5826772135D9650036148C /* RemoteService.swift */,
+				CA1D9BC7213AEC300051EF1B /* LoadingCircleView.swift */,
+				CA1D9BC9213B2FD00051EF1B /* LoadingViewController.swift */,
+			);
+			path = tesonetTestApp;
+			sourceTree = "<group>";
+		};
+		CA5826622135CC760036148C /* tesonetTestAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA1D9BF2213C87390051EF1B /* ServersModelTests.swift */,
+				CA1D9BF7213C89410051EF1B /* ServersViewModelTests.swift */,
+				CA1D9BFB213C93D40051EF1B /* LoginViewModelTests.swift */,
+				CA1D9BF6213C891A0051EF1B /* Mock */,
+				CA5826652135CC760036148C /* Info.plist */,
+				CA1D9BF5213C88E60051EF1B /* tesonetTestAppTests-Bridging-Header.h */,
+			);
+			path = tesonetTestAppTests;
+			sourceTree = "<group>";
+		};
+		CA5826702135D7E40036148C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CA58266E2135D7E10036148C /* URLSession.swift */,
+				CA5826752135D9300036148C /* URLRequest.swift */,
+				CA58267A2135DC610036148C /* URLSessionConfiguration.swift */,
+				CA58267C21370AFB0036148C /* KeychainAccess.swift */,
+				CA582685213AA8990036148C /* UIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CA5826792135D9AD0036148C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA5826712135D8A30036148C /* AppError.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA58268021371C2C0036148C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CA58267E21370D250036148C /* LoginService.swift */,
+				CA5826502135CC740036148C /* LoginViewController.swift */,
+				CA58268121371C5A0036148C /* LoginViewModel.swift */,
+				CA58268321371E0E0036148C /* LoginServiceProtocol.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA58264A2135CC740036148C /* tesonetTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA5826682135CC760036148C /* Build configuration list for PBXNativeTarget "tesonetTestApp" */;
+			buildPhases = (
+				B74E8106DE4B54733BD6FEA6 /* [CP] Check Pods Manifest.lock */,
+				CA5826472135CC740036148C /* Sources */,
+				CA5826482135CC740036148C /* Frameworks */,
+				CA5826492135CC740036148C /* Resources */,
+				70FC23C85B750ED4830DEB97 /* [CP] Embed Pods Frameworks */,
+				333B4B46F1B2AF877C23066D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tesonetTestApp;
+			productName = tesonetTestApp;
+			productReference = CA58264B2135CC740036148C /* tesonetTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA58265E2135CC760036148C /* tesonetTestAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA58266B2135CC760036148C /* Build configuration list for PBXNativeTarget "tesonetTestAppTests" */;
+			buildPhases = (
+				5D28331D9FB30400D9FB16FF /* [CP] Check Pods Manifest.lock */,
+				CA58265B2135CC760036148C /* Sources */,
+				CA58265C2135CC760036148C /* Frameworks */,
+				CA58265D2135CC760036148C /* Resources */,
+				CC602675299D0939356603D9 /* [CP] Embed Pods Frameworks */,
+				F6875255C163080BF73EF798 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA5826612135CC760036148C /* PBXTargetDependency */,
+			);
+			name = tesonetTestAppTests;
+			productName = tesonetTestAppTests;
+			productReference = CA58265F2135CC760036148C /* tesonetTestAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA5826432135CC740036148C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Martynas Pasilis";
+				TargetAttributes = {
+					CA58264A2135CC740036148C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					CA58265E2135CC760036148C = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+						TestTargetID = CA58264A2135CC740036148C;
+					};
+				};
+			};
+			buildConfigurationList = CA5826462135CC740036148C /* Build configuration list for PBXProject "tesonetTestApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA5826422135CC740036148C;
+			productRefGroup = CA58264C2135CC740036148C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA58264A2135CC740036148C /* tesonetTestApp */,
+				CA58265E2135CC760036148C /* tesonetTestAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA5826492135CC740036148C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA5826592135CC760036148C /* LaunchScreen.storyboard in Resources */,
+				CA5826562135CC760036148C /* Assets.xcassets in Resources */,
+				CA5826542135CC740036148C /* Login.storyboard in Resources */,
+				CA582688213AB3220036148C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA58265D2135CC760036148C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		333B4B46F1B2AF877C23066D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tesonetTestApp/Pods-tesonetTestApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D28331D9FB30400D9FB16FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tesonetTestApp-tesonetTestAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70FC23C85B750ED4830DEB97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-tesonetTestApp/Pods-tesonetTestApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainAccess.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tesonetTestApp/Pods-tesonetTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B74E8106DE4B54733BD6FEA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tesonetTestApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC602675299D0939356603D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-tesonetTestApp-tesonetTestAppTests/Pods-tesonetTestApp-tesonetTestAppTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainAccess.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tesonetTestApp-tesonetTestAppTests/Pods-tesonetTestApp-tesonetTestAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6875255C163080BF73EF798 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tesonetTestApp-tesonetTestAppTests/Pods-tesonetTestApp-tesonetTestAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA5826472135CC740036148C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1D9BE4213C63450051EF1B /* ServerSortType.swift in Sources */,
+				CA1D9BD7213C31380051EF1B /* ServersModelProtocol.swift in Sources */,
+				CA5826722135D8A30036148C /* AppError.swift in Sources */,
+				CA1D9BD5213C311E0051EF1B /* ServersModel.swift in Sources */,
+				CA58268421371E0E0036148C /* LoginServiceProtocol.swift in Sources */,
+				CA1D9BE2213C605B0051EF1B /* ServerTableViewCell.swift in Sources */,
+				CA5826512135CC740036148C /* LoginViewController.swift in Sources */,
+				CA1D9BD1213C28D90051EF1B /* ServersServiceProtocol.swift in Sources */,
+				CA1D9BCA213B2FD00051EF1B /* LoadingViewController.swift in Sources */,
+				CA1D9BDE213C54090051EF1B /* ServerObject.swift in Sources */,
+				CA58268A213AE4370036148C /* ServersViewController.swift in Sources */,
+				CA58268221371C5A0036148C /* LoginViewModel.swift in Sources */,
+				CA58264F2135CC740036148C /* AppDelegate.swift in Sources */,
+				CA5826762135D9300036148C /* URLRequest.swift in Sources */,
+				CA1D9BCF213C26770051EF1B /* Server.swift in Sources */,
+				CA5826782135D9650036148C /* RemoteService.swift in Sources */,
+				CA1D9BD9213C36550051EF1B /* ServersDatabaseProtocol.swift in Sources */,
+				CA1D9BD3213C2B9F0051EF1B /* ServersViewModel.swift in Sources */,
+				CA582686213AA8990036148C /* UIViewController.swift in Sources */,
+				CA5826742135D9230036148C /* RequestMethod.swift in Sources */,
+				CA58266F2135D7E10036148C /* URLSession.swift in Sources */,
+				CA58267F21370D250036148C /* LoginService.swift in Sources */,
+				CA58267D21370AFB0036148C /* KeychainAccess.swift in Sources */,
+				CA1D9BC8213AEC300051EF1B /* LoadingCircleView.swift in Sources */,
+				CA1D9BCD213C20F40051EF1B /* ServersService.swift in Sources */,
+				CA58267B2135DC610036148C /* URLSessionConfiguration.swift in Sources */,
+				CA1D9BDB213C37D40051EF1B /* ServersDatabase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA58265B2135CC760036148C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1D9BFA213C89610051EF1B /* ServerSortType.swift in Sources */,
+				CA1D9C02213CF9230051EF1B /* MockLoginService.swift in Sources */,
+				CA1D9BF3213C87390051EF1B /* ServersModelTests.swift in Sources */,
+				CA1D9BF8213C89410051EF1B /* ServersViewModelTests.swift in Sources */,
+				CA1D9BFC213C93D40051EF1B /* LoginViewModelTests.swift in Sources */,
+				CA1D9BFF213C95170051EF1B /* AppError.swift in Sources */,
+				CA1D9BF4213C87610051EF1B /* ServersModel.swift in Sources */,
+				CA1D9BF0213C86760051EF1B /* MockServersModel.swift in Sources */,
+				CA1D9BFD213C93FA0051EF1B /* LoginViewModel.swift in Sources */,
+				CA1D9BFE213C940B0051EF1B /* LoginServiceProtocol.swift in Sources */,
+				CA1D9BEE213C86240051EF1B /* ServersServiceProtocol.swift in Sources */,
+				CA1D9BED213C860F0051EF1B /* MockServersService.swift in Sources */,
+				CA1D9C00213C95F70051EF1B /* KeychainAccess.swift in Sources */,
+				CA1D9BEA213C85E20051EF1B /* Server.swift in Sources */,
+				CA1D9BF1213C86850051EF1B /* ServersModelProtocol.swift in Sources */,
+				CA1D9BEB213C85E90051EF1B /* ServersDatabaseProtocol.swift in Sources */,
+				CA1D9BF9213C894B0051EF1B /* ServersViewModel.swift in Sources */,
+				CA1D9BE9213C85A10051EF1B /* MockServersDatabase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA5826612135CC760036148C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA58264A2135CC740036148C /* tesonetTestApp */;
+			targetProxy = CA5826602135CC760036148C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA5826522135CC740036148C /* Login.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA5826532135CC740036148C /* Base */,
+			);
+			name = Login.storyboard;
+			sourceTree = "<group>";
+		};
+		CA5826572135CC760036148C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA5826582135CC760036148C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA5826662135CC760036148C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA5826672135CC760036148C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA5826692135CC760036148C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4F79856550116813B5C075A /* Pods-tesonetTestApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tesonetTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.martynas.pasilis.tesonetTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA58266A2135CC760036148C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2789006C277CA6E485F84C33 /* Pods-tesonetTestApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tesonetTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.martynas.pasilis.tesonetTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA58266C2135CC760036148C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1C42BC54C871C03E82841AB /* Pods-tesonetTestApp-tesonetTestAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tesonetTestAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.martynas.pasilis.tesonetTestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "tesonetTestAppTests/tesonetTestAppTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tesonetTestApp.app/tesonetTestApp";
+			};
+			name = Debug;
+		};
+		CA58266D2135CC760036148C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A013351664237F1413C4EB6 /* Pods-tesonetTestApp-tesonetTestAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tesonetTestAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.martynas.pasilis.tesonetTestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "tesonetTestAppTests/tesonetTestAppTests-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tesonetTestApp.app/tesonetTestApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA5826462135CC740036148C /* Build configuration list for PBXProject "tesonetTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA5826662135CC760036148C /* Debug */,
+				CA5826672135CC760036148C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA5826682135CC760036148C /* Build configuration list for PBXNativeTarget "tesonetTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA5826692135CC760036148C /* Debug */,
+				CA58266A2135CC760036148C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA58266B2135CC760036148C /* Build configuration list for PBXNativeTarget "tesonetTestAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA58266C2135CC760036148C /* Debug */,
+				CA58266D2135CC760036148C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA5826432135CC740036148C /* Project object */;
+}

@@ -1,0 +1,13 @@
+platform :ios, ’11.0’
+# ignore all warnings from all pods
+inhibit_all_warnings!
+use_frameworks!
+target ‘tesonetTestApp’ do
+    pod 'ReactiveCocoa', '~> 7.0'
+    pod 'RealmSwift'
+    pod 'KeychainAccess'
+    
+    target ‘tesonetTestAppTests’ do
+    	pod 'ReactiveCocoa', '~> 7.0'
+    end
+end
